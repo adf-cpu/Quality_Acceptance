@@ -12,11 +12,10 @@ col1, col2 = st.columns([1, 3])  # Create 2 columns with ratios (left narrower t
 with col1:  # Left column
     st.image("Huawei.jpg", width=80)
 
-# Cloudinary configuration (replace with your own Cloudinary credentials)
 cloudinary.config(
-    cloud_name="your_cloud_name",  # Replace with your Cloudinary cloud name
-    api_key="your_api_key",        # Replace with your Cloudinary API key
-    api_secret="your_api_secret"   # Replace with your Cloudinary API secret
+    cloud_name="drpkmvcdb",  # Replace with your Cloudinary cloud name
+    api_key="421723639371647",        # Replace with your Cloudinary API key
+    api_secret="AWpJzomMBrw-5DHNqujft5scUbM"   # Replace with your Cloudinary API secret
 )
 
 def upload_to_cloudinary(file_path, public_id):

@@ -50,7 +50,7 @@ def save_results(username, total_attempted, correct_answers, wrong_answers, tota
     uploaded_url = upload_to_cloudinary("quiz_results_qa.xlsx", "quiz_results_qa")
     if uploaded_url:
         st.success("Quiz results uploaded successfully!")
-        st.markdown(f"Access your file here: [quiz_results.xlsx]({uploaded_url})")
+        # st.markdown(f"Access your file here: [quiz_results.xlsx]({uploaded_url})")
 
 # Initialize session state
 if 'logged_in' not in st.session_state:

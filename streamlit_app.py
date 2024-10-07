@@ -593,7 +593,7 @@ if not st.session_state.logged_in:
         else:
             st.error("Please enter a valid username and password.")
 else:
-    st.sidebar.markdown(f"## Welcome **{st.session_state.username}** For The Quiz Of EHS Assurance ")
+    st.sidebar.markdown(f"## Welcome **{st.session_state.username}** For The Quiz Of Quality Standards and SOPs ")
     if st.sidebar.button("Logout"):
         st.session_state.logged_in = False
         st.session_state.current_question = 0  # Reset current question

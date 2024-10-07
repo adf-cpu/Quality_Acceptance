@@ -586,7 +586,7 @@ if not st.session_state.logged_in:
     if st.button("Login"):
         if username in allowed_usernames and password:  # Add password validation as needed
             st.session_state.logged_in = True
-            st.session_state.username = user_input
+            st.session_state.username = username
             st.session_state.start_time = datetime.now()  # Track start time on login
             st.success("Logged in successfully!")
             st.experimental_rerun()  # Refresh the page to reflect the new state

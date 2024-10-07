@@ -59,8 +59,7 @@ if 'current_question' not in st.session_state:
     st.session_state.current_question = 0
 if 'answers' not in st.session_state:
     st.session_state.answers = []
-if 'username' not in st.session_state:
-    st.session_state.username = ""
+
 if 'quiz_submitted' not in st.session_state:
     st.session_state.quiz_submitted = False
 if 'flattened_questions' not in st.session_state:

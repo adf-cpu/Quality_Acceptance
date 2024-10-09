@@ -108,10 +108,192 @@ QAC = {
             "answer": ["B) The RF emissive power reduces", "D) Shrink the cell coverage"]  # Correct answers
         },
         {
+        "question": "What are the impacts of level-1 VSWR alarm?",
+        "options": [
+            "A) Service interrupt",
+            "B) The RF emissive power reduces",
+            "C) The amplifier of RF unit is shut down",
+            "D) Shrink the cell coverage"
+        ],
+        "answer": ["B) The RF emissive power reduces", "D) Shrink the cell coverage"]
+    },
+    {
+        "question": "Which type of the transmission can be supported by WMPT board?",
+        "options": [
+            "A) E1/T1",
+            "B) Electronic IP",
+            "C) Optical IP",
+            "D) Microwave"
+        ],
+        "answer": ["A) E1/T1", "B) Electronic IP", "C) Optical IP"]
+    },
+    {
+        "question": "BBU3900’s functions include",
+        "options": [
+            "A) interactive communication between BTS and BSC",
+            "B) provide the system clock",
+            "C) BTS Centralized Management",
+            "D) provide the maintenance channel with LMT(or M2000)"
+        ],
+        "answer": ["A) interactive communication between BTS and BSC", "B) provide the system clock", "C) BTS Centralized Management", "D) provide the maintenance channel with LMT(or M2000)"]
+    },
+    {
+        "question": "Option board of BBU3900 includes",
+        "options": [
+            "A) power module UPEU",
+            "B) E1 surge protector UELP",
+            "C) Universal clock unit USCU",
+            "D) Environment monitor interface board UEIU"
+        ],
+        "answer": ["B) E1 surge protector UELP", "C) Universal clock unit USCU", "D) Environment monitor interface board UEIU"]
+    },
+    {
+        "question": "The typical installation of BTS3900 includes",
+        "options": [
+            "A) concrete floor",
+            "B) stub fixed",
+            "C) ESD floor",
+            "D) sand ground installation"
+        ],
+        "answer": ["A) concrete floor", "C) ESD floor"]
+    },
+    
+    {
+        "question": "Which of the following statements of grounding is correct?",
+        "options": [
+            "A) First connect grounding cables when installation; unmount grounding cables at the end when Un-deployment",
+            "B) Destroy grounding conductor is prohibit",
+            "C) Operate device before installing grounding conductor is prohibit",
+            "D) Device should ground with reliability"
+        ],
+        "answer": ["A) First connect grounding cables when installation; unmount grounding cables at the end when Un-deployment", "C) Operate device before installing grounding conductor is prohibit", "D) Device should ground with reliability"]
+    },
+    {
+        "question": "Which of the following statements of GPS installation is correct?",
+        "options": [
+            "A) GPS antenna should install at the protect area of lighting rod(45 degree below the lighting rod top)",
+            "B) Keep metal base horizon, use washer when need",
+            "C) Fixing the GPS firmly, nothing block the vertical 90 degree area of the antenna",
+            "D) Waterproof is needed at the connector between GPS antenna and feeder"
+        ],
+        "answer": ["A) GPS antenna should install at the protect area of lighting rod(45 degree below the lighting rod top)", "B) Keep metal base horizon, use washer when need", "C) Fixing the GPS firmly, nothing block the vertical 90 degree area of the antenna", "D) Waterproof is needed at the connector between GPS antenna and feeder"]
+    },
+    {
+        "question": "Which of the following statements about PRRU installation is incorrect?",
+        "options": [
+            "A) Keep the equipment away from the room where there is water leaking or dripping.",
+            "B) Do not install PRRU next to strong heat source equipment.",
+            "C) The pRRU should be installed at least 50 cm away from heat sources or temperature-sensitive devices.",
+            "D) The installation position, specifications, models, and supports of the antenna must meet the engineering design requirements."
+        ],
+        "answer": ["D) The installation position, specifications, models, and supports of the antenna must meet the engineering design requirements."]
+    },
+    
+    {
+        "question": "The cross-sectional area of the PGND cable of the FOIS300 outdoor cabinet is () The cross-sectional area of the AC power cable is not less than (A).",
+        "options": [
+            "A) 25mm2, 4mm2",
+            "B) 25mm2, 6mm2",
+            "C) 16mm2, 4mm2"
+        ],
+        "answer": ["A) 25mm2, 4mm2"]
+    },
+    {
+        "question": "After unpacking a cabinet or BBU, you must power on the cabinet or BBU within (B) days.",
+        "options": [
+            "A) 1 day",
+            "B) 7 days",
+            "C) 14 days",
+            "D) NA"
+        ],
+        "answer": ["B) 7 days"]
+    },
+    {
+        "question": "The installation path ground cable should be ()",
+        "options": [
+            "A) As short as possible",
+            "B) As long as possible",
+            "C) No turning",
+            "D) At least one turn"
+        ],
+        "answer": ["A) As short as possible"]
+    },
+    {
+        "question": "Cables should be connected () to avoid water entering the junction box.",
+        "options": [
+            "A) Down to the top",
+            "B) Up to the bottom",
+            "C) Both sides",
+            "D) Back"
+        ],
+        "answer": ["A) Down to the top"]
+    },
+    {
+        "question": "Cables inside the cabinet must be routed according to the rules. () cables must be bundled to the cabinet.",
+        "options": [
+            "A) Left cabling",
+            "B) Right cabling",
+            "C) Far cabling",
+            "D) Separate cabling on both sides of the cabinet"
+        ],
+        "answer": ["D) Separate cabling on both sides of the cabinet"]
+    },
+    {
+        "question": "After excavation of foundation pit, the main content of trench inspection is to check ()",
+        "options": [
+            "A) Foundation Substrate soil",
+            "B) Concrete cushion",
+            "C) Construction safety",
+            "D) Ambient environment"
+        ],
+        "answer": ["A) Foundation Substrate soil"]
+    },
+    {
+        "question": "Which statements about the sealing of cable holes in the cabinet is unreasonable?",
+        "options": [
+            "A) All cable inlets and outlet holes of the cabinet must be closed.",
+            "B) The cable openings of plastic parts must be properly cut.",
+            "C) The cable openings of plastic parts must be neat and insulated.",
+            "D) The cable holes on the cabinet can be properly closed to ensure ventilation of the cabinet."
+        ],
+        "answer": ["D) The cable holes on the cabinet can be properly closed to ensure ventilation of the cabinet."]
+    },
+    {
+        "question": "The cable holes at the bottom of the outdoor cabinet need to be sealed with sealing materials. Which of the following is not a common sealing material?",
+        "options": [
+            "A) Silicone",
+            "B) Oil sludge",
+            "C) Cement"
+        ],
+        "answer": ["C) Cement"]
+    },
+    {
+        "question": "Which of the following statements are correct about waterproofing the 3+3 connector of the RRU RF jumper?",
+        "options": [
+            "A) Step 1: Wrap three layers of waterproof tape on the connector.",
+            "B) Step 2: Wrap three layers of PVC insulation tape.",
+            "C) Step 3: Start binding cable ties to the cable at a position.",
+            "D) All of the above are correct."
+        ],
+        "answer": ["A) Step 1: Wrap three layers of waterproof tape on the connector.", "B) Step 2: Wrap three layers of PVC insulation tape.", "C) Step 3: Start binding cable ties to the cable at a position."]
+    },
+    {
+        "question": "Which statements about the removal of old equipment are correct?",
+        "options": [
+            "A) The old equipment must be intact.",
+            "B) Use waterproof and dustproof materials to protect the ports.",
+            "C) Old cables must be coiled and bundled separately.",
+            "D) Old devices can be thrown away without recycling."
+        ],
+        "answer": ["A) The old equipment must be intact.", "B) Use waterproof and dustproof materials to protect the ports.", "C) Old cables must be coiled and bundled separately."]
+    },
+    
+        {
             "question": "Which type of the transmission can be supported by WMPT board?",
             "options": ["A) E1/T1", "B) Electronic IP", "C) Optical IP", "D) Microwave"],
             "answer": ["A) E1/T1", "B) Electronic IP", "C) Optical IP"]  # Correct answers
         },
+        
         {
             "question": "BBU3900’s functions include:",
             "options": [
@@ -157,6 +339,9 @@ QAC = {
             ],
             "answer": ["A) GPS antenna should install at the protect area of lighting rod (45 degree below the lighting rod top)", "B) Keep metal base horizon, use washer when need", "C) Fixing the GPS firmly, nothing block the vertical 90 degree area of the antenna", "D) Waterproof is needed at the connector between GPS antenna and feeder"]  # All options are correct
         }
+        
+         
+        
     ],
     "multiple_choice": [
         {

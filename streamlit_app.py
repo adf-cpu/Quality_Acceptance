@@ -61,13 +61,11 @@ if 'flattened_questions' not in st.session_state:
     st.session_state.flattened_questions = []
 # List of allowed usernames
 allowed_usernames = {
-    "safaa_asadmurad",
-    "safaa_ashfaq",
-    "nk_adnanali12",
-    "nk_waseem11",
-    "ies_zaheer03",
-    "ies_hamzashafique",
-    "safaa_mansar"
+"HIC_ISB_TrainingTeam_01",
+"HIC_ISB_TrainingTeam_02",
+"HIC_ISB_TrainingTeam_03",
+"HIC_ISB_TrainingTeam_04",
+"HIC_ISB_TrainingTeam_05"
     
 }
 # Define your questions

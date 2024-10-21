@@ -4,7 +4,7 @@ hide_github_icon = """
   visibility: hidden;
 }
 """
-st.markdown(hide_github_icon, unsafe_allow_html=True
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 import pandas as pd
 from datetime import datetime
 import random

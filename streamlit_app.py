@@ -5,7 +5,18 @@ import random
 import cloudinary
 import cloudinary.uploader
 import os
-st.markdown("[GitHub Repository](https://github.com/adf-cpu/Quality_Acceptance/blob/main/streamlit_app.py)")
+st.markdown(
+    """
+    <style>
+    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+    .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Use Streamlit's image function to show the image on the left side
 col1, col2 = st.columns([1, 3])  # Create 2 columns with ratios (left narrower than right)

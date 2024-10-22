@@ -56,7 +56,7 @@ def save_results(username, total_attempted, correct_answers, wrong_answers, tota
     df = pd.concat([df, new_data], ignore_index=True)
     df.to_excel("quiz_results_QAC.xlsx", index=False)
        # Upload the file to Cloudinary
-    uploaded_url = upload_to_cloudinary("quiz_results_QAC.xlsx", "quiz_results_wireless")
+    uploaded_url = upload_to_cloudinary("quiz_results_QAC.xlsx", "quiz_results_QAC")
     if uploaded_url:
         st.success(f"Quiz results uploaded successfully!")
         # st.markdown(f"Access your file here: [quiz_results.xlsx]({uploaded_url})")

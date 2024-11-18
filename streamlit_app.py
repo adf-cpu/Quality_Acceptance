@@ -8,7 +8,7 @@ import os
 st.markdown(
     """
     <style>
-    .st-emotion-cache-1huvf7z {
+    .st-emotion-cache-1huvf7z { 
         display: none; /* Hides the button */
     }
     </style>
